@@ -17,26 +17,24 @@ public class Carros {
     private String modelo;
     private String numeroPlaca;
 
-    // Criação do objeto Carro
-    public Carro(String modelo, String numeroPlaca) {
+public Carro(String modelo, String numeroPlaca) {
         this.modelo = modelo;
         this.numeroPlaca = numeroPlaca;
     }
 
-    // Gets e Sets
-    public String getModelo() {
+ public String getModelo() {
         return modelo;
     }
 
-    public void setModelo(String modelo) {
+ public void setModelo(String modelo) {
         this.modelo = modelo;
     }
 
-    public String getNumeroPlaca() {
+public String getNumeroPlaca() {
         return numeroPlaca;
     }
 
-    public void setNumeroPlaca(String numeroPlaca) {
+public void setNumeroPlaca(String numeroPlaca) {
         this.numeroPlaca = numeroPlaca;
     }
 }
