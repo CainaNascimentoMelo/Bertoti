@@ -93,3 +93,6 @@ class Teste {
     }
 }
 ```
+
+![Modelo UML](https://github.com/user-attachments/assets/02d03f8b-efc2-4872-a028-0e1ecb51d62c)
+
