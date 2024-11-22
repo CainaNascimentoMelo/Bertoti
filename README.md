@@ -68,3 +68,28 @@ public class Estacionamento {
     }
 }
 ```
+
+```java
+  import static org.junit.jupiter.api.Assertions.*;  
+import java.util.List; 
+import org.junit.jupiter.api.Test;  
+
+class Teste {
+
+    @Test
+    void test() {
+        
+        Estacionamento estacionamentoPereira = new Estacionamento();
+        
+       Carro Argo123 = new Carro("Argo", "ABC123");
+        
+        estacionamentoPereira.cadastrarCarros(Argo123);
+
+        assertEquals(estacionamentoPereira.getCarro().size(), 2);
+        
+        List<Carro> argos = estacionamentoPereira.buscarCarrosPorModelo("Argo123");
+        
+        assertEquals(argos.get(0).getNumeroPlaca(), argo123.getNumeroplaca());
+    }
+}
+```
