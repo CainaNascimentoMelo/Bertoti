@@ -12,8 +12,9 @@ Comparando a programação e a engenharia de software, encontramos 3 diferenças
 
 # Códigos
 
+```java
 public class Carros {
-    // Criação das variáveis
+    
     private String modelo;
     private String numeroPlaca;
 
@@ -38,3 +39,32 @@ public void setNumeroPlaca(String numeroPlaca) {
         this.numeroPlaca = numeroPlaca;
     }
 }
+```
+
+```java
+import java.util.List;
+import java.util.LinkedList;
+
+public class Estacionamento {
+
+    private List<Carros> Carros = new LinkedList<Carros>();
+    
+    public void cadastrarCarros(Carros carros) {
+        carros.add(Carros); 
+    }
+    
+ 
+    public List<Carros> buscarCarrosPorModelo(String modelo) {
+        List<Carros> CarrosEncontrados = new LinkedList<Carros>();
+        for(Carros carros : carros) {  
+            if(carros.getModelo().equals(modelo)) 
+                carrosEncontrados.add(carros); 
+        }
+        return carrosEncontrados;  
+    }
+    
+    public List<Carros> getCarros() {
+        return carros;  
+    }
+}
+```
