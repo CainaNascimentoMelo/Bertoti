@@ -6,4 +6,37 @@ Comparando a programação e a engenharia de software, encontramos 3 diferenças
 
 # Exemplos de Trade-Off
 
-1. 
+1. O desenvolvimento de projetos em determinadas linguagens, já que cada uma tem uma função, vantagens e desvantagens diferentes.
+
+2. Ao invês de uma metodologia tradicional, utilizar uma metodologia agil, buscando maior flexibilização e fácil adaptação em determinado projeto.
+
+# Códigos
+
+public class Carros {
+    // Criação das variáveis
+    private String modelo;
+    private String numeroPlaca;
+
+    // Criação do objeto Carro
+    public Carro(String modelo, String numeroPlaca) {
+        this.modelo = modelo;
+        this.numeroPlaca = numeroPlaca;
+    }
+
+    // Gets e Sets
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getNumeroPlaca() {
+        return numeroPlaca;
+    }
+
+    public void setNumeroPlaca(String numeroPlaca) {
+        this.numeroPlaca = numeroPlaca;
+    }
+}
