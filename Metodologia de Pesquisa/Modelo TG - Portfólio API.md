@@ -1,12 +1,12 @@
-# Coloque seu nome aqui
+# Cainã Nascimento Melo
 
 ## Introdução
 
 Faça uma breve introdução sobre você. Fale de sua formação e carreira. Caso aplicável, fale de publicações ou apresentações em eventos da área de computação. Inclua uma foto!
 
 ## Contatos
-* [GIT](https://www.git.com)
-* [LinkedIn](https://www.linkedin.com)
+* [GitHub](https://github.com/CainaNascimentoMelo)
+* [LinkedIn](https://www.linkedin.com/in/cain%C3%A3-melo/)
 
 ## Meus Principais Conhecimentos
 Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maior domínio e que deseja desenvolver durante sua carreira.
@@ -14,10 +14,16 @@ Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maio
 
 ## Meus Projetos
 
-### Em 2021-2
+### Em 2024-1
+Mesmo formato
+
+### Em 2024-2
+Mesmo formato
+
+### Em 2025-1
 O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizando esses dados no formato de planilhas que poderiam ser exportadas posteriormente no formato .csv baseado na paginação escolhida pelo usuário. A empresa parceira para esse projeto foi a Altave
 
-[GIT](https://www.git.com)
+[GIT](https://github.com/SQLutions-FATEC/API-3-Semestre-Backend)
 
 #### Tecnologias Utilizadas
 Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
@@ -31,18 +37,14 @@ Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o n�
 #### Soft Skills
 Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas.
 
-### Em 2022-1
+### Em 2025-2
 Mesmo formato
 
-### Em 2022-2
+### Em 2026-1
 Mesmo formato
 
-### Em 2023-1
+### Em 2026-2
 Mesmo formato
-
-### Em 2023-2
-Mesmo formato
-
 
 
 
