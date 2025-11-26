@@ -2,13 +2,10 @@
 
 ## Introdução
 
-
-
 ## Contatos
-* [GitHub](https://github.com/EnzoLFranco)
-* [LinkedIn](https://www.linkedin.com/in/enzo-lemos-franco/)
+* [GitHub](https://github.com/CainaNascimentoMe)
 ## Meus Principais Conhecimentos
-Minha stack principal inclui Java (Back‑End) com Spring Boot, bancos relacionais MySQL e PostgreSQL (modelagem e integração via JPA/Hibernate), gerenciamento de dependências com Maven, controle de versão com Git/GitHub e uso de Docker para empacotamento. Tenho experiência prática no desenvolvimento e manutenção de APIs REST em Java/Spring Boot, além de integração com front‑end em Vue.js, modelagem de dados e uso rotineiro de Git para colaboração. Sou familiarizado com práticas ágeis (Scrum e Kanban) e uso de JPA/Hibernate para transações. Busco consolidar experiência em design de APIs escaláveis, avançar em testes automatizados e CI/CD, e assumir responsabilidades de arquitetura e deploy em produção.
+Minha stack principal
 
 
 ## Meus Projetos
