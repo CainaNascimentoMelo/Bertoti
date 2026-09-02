@@ -49,60 +49,45 @@ Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft ski
 
 ### Em 2024-2
 
-O projeto desenvolvido foi um sistema acadêmico voltado ao gerenciamento e acompanhamento do desempenho de alunos em equipes de aprendizagem. A solução permitia que professores visualizassem informações dos estudantes, suas equipes e notas, oferecendo uma interface intuitiva para acompanhamento do progresso acadêmico. O sistema foi desenvolvido em Java utilizando JavaFX para construção da interface gráfica.
+O projeto desenvolvido foi um Avaliador de Soft Skills, onde a empresa parceira foi novamente o CADI - Centro de Aprendizagem em Desenvolvimento e Integração, Departamento de Extensão da Fatec São José dos Campos. As dores do cliente vinha do problema onde, professores responsáveis pelo API recebiam dos alunos uma avaliação em formato PACER (Proatividade, Autonomia, Colaboração e Entrega de Resultados), porém, acabavam sendo feitos em formatos diferentes e sem o cálculo de média de cada aluno, tomando tempo dos professores. O projeto então deverá permitir que os alunos sejam capaz de avaliar outros membros de sua equipe e calcular a média de suas notas, através de uma formato padronizado que os professores receberiam. Diante disso, o sistema foi desenvolvido através de Java utilizando JavaFX para construção da interface gráfica.  
 
-[GIT](https://github.com/SQLutions-FATEC/API-1-Semestre)
+[GitHub](https://github.com/SQLutions-FATEC/API-2-Semestre)
 
 #### Tecnologias Utilizadas
 
 * Java: Linguagem principal utilizada para desenvolvimento da aplicação e implementação das regras de negócio.
 * JavaFX: Framework utilizado para construção da interface gráfica, permitindo criar telas interativas para professores e alunos.
-* Maven: Responsável pelo gerenciamento das dependências e automação do processo de build do projeto.
-* Git e GitHub: Utilizados para controle de versão, integração das funcionalidades e gerenciamento colaborativo do código-fonte.
+* Git e GitHub: Utilizados para versionamento, integração das funcionalidades e gerenciamento do código-fonte.
 
 #### Contribuições Pessoais
 
-Atuando como Desenvolvedor Back-End e Front-End Desktop, minhas contribuições se concentraram na implementação de funcionalidades da interface acadêmica voltada para professores e alunos. Fui responsável por:
+Atuando como Desenvolvedor, minhas contribuições se concentraram na implementação de funcionalidades da interface acadêmica voltada para professores e alunos, sendo responsável por:
 
-* **Desenvolvimento da Área de Professores:**
+* **Desenvolvimento da Tela de Edição de Alunos:** Implementei uma nova tela para edição dos alunos capaz de transitar entre a tela dos professores e a tela de edição. Nesta tela de edição, foram disponibilizadas opções para selecionar o usuário, alterar sua equipe, confirmar as alterações ou deletar o usuário."
 
-  * Criação da tela destinada aos professores para acompanhamento dos alunos.
-  * Implementação da listagem de períodos acadêmicos.
-  * Configuração da seleção automática do período atual para facilitar a navegação.
-
-* **Gerenciamento de Alunos:**
-
-  * Desenvolvimento da funcionalidade de edição de alunos.
-  * Implementação do menu de visualização dos alunos.
-  * Construção da tabela de visualização de notas dos estudantes.
-
-* **Melhorias de Usabilidade:**
-
-  * Implementação da busca por equipes na interface do professor.
-  * Correções de compatibilidade relacionadas ao JavaFX.
-  * Ajustes gerais de navegação e integração das telas.
+* **Consulta de Desempenho dos Alunos:** Implementei uma tela para consulta dos desempenhos dos alunos, permitindo a seleção dos professores entre as equipes, sprints e semestres. Foi feita a integração com o banco de dados para carregar as sprints disponíveis e através de uma tabela, o professor poderia visualizar os alunos e suas avaliações de proatividade, autonomia, colaboração e entrega.
 
 #### Hard Skills
 
-* **Java:** Nível Intermediário/Avançado
+* **Java:** Nível Intermediário
 
-  * Demonstração: Desenvolvi funcionalidades relacionadas à manipulação de dados acadêmicos, menus de navegação e regras de visualização de informações.
+  * Demonstração: Desenvolvi controllers relacionados à manipulação de dados acadêmicos. Também fiz a integração com banco de dados e consultas SQL. 
 
 * **JavaFX:** Nível Intermediário
 
-  * Demonstração: Criei telas de professores e alunos, implementei tabelas de visualização e recursos de busca e filtragem.
+  * Demonstração: Criei telas de professores e alunos através do FXML, implementei tabelas de visualização e recursos de busca e filtragem.
 
 * **Git e GitHub:** Nível Intermediário
 
-  * Demonstração: Realizei merges, integração de branches e colaboração contínua utilizando fluxo baseado em Pull Requests.
+  * Demonstração: Realizei merges e colaborei continuamente no desenvolvimento utilizando Pull Requests.
 
 #### Soft Skills
 
+Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft skills:
+
 * Trabalho em equipe: participei da integração de funcionalidades desenvolvidas por diferentes membros da equipe.
-* Comunicação: mantive alinhamento constante com os demais integrantes para garantir consistência na interface e nas regras do sistema.
-* Resolução de problemas: atuei na correção de incompatibilidades e ajustes de funcionalidades durante o desenvolvimento.
-
-
+* Comunicação: mantive alinhamento com os demais integrantes para garantir consistência na interface gráfica.
+* Proatividade: atuei na correção de ajustes de funcionalidades durante o desenvolvimento.
 
 ### Em 2025-1
 O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizando esses dados no formato de planilhas que poderiam ser exportadas posteriormente no formato .csv baseado na paginação escolhida pelo usuário. A empresa parceira para esse projeto foi a Altave e o problema a ser resolvido era a dificuldade da administração e controle dos pontos cadastrados por trabalhadores de empresas terceirizadas em estações de manutenção de navios. Como citado anteriormente, a solução entregue foi o sistema de registro de pontos com cadastro de empresas, seus funcionários, os pontos em questão e os contratos entre as empresas e os colaboradores, delimitando o tempo pelo qual os colaboradores atuarão.
