@@ -1,70 +1,51 @@
-# Cainã nascimento Melo
+# Cainã Nascimento Melo
 
 ## Introdução
 
+Olá! Sou estudante do curso superior tecnólogo em Banco de Dados da FATEC São José dos Campos, da turma de 2024 - atual 6° semestre. Sou formado no curso de Eletricista de Manutenção Eletroeletrônica, pelo SENAI Felix Guisard, Taubaté e minha transição de carreira para área de TI começou com os conselhos do meu cunhado, já atuante na área como Cientista de Dados.
+
 ## Contatos
 * [GitHub](https://github.com/CainaNascimentoMe)
+* [LinkedIn](https://www.linkedin.com/in/cain%C3%A3-melo/)
 ## Meus Principais Conhecimentos
-Minha stack principal
 
+Antes da área de TI, devido ao curso de Eletricista de Manutenção Eletroeletrônica, adquiri conhecimentos da linguagem Ladder (diagrama em escada), uma linguagem de programação gráfica que é usada principalmente para o funcionamento de Controladores Lógicos Programáveis (CLPs) no escopo da automação industrial. Atualmente, sendo graduando do curso de Banco de Dados, minha stack principal inclui Java (Back‑End) com Spring Boot, Python (Back-End) com Django, Python (Front-End) com React bancos relacionais MySQL, controle de versão com Git/GitHub. Também sou familiarizado com práticas ágeis (Scrum e Kanban).
 
 ## Meus Projetos
 
 ### Em 2024-1
 
-O projeto desenvolvido foi uma Calculadora Científica capaz de realizar operações matemáticas básicas e avançadas, oferecendo resultados precisos para auxiliar usuários em atividades acadêmicas, financeiras e do cotidiano. O sistema foi desenvolvido com foco na confiabilidade dos cálculos, facilidade de utilização e organização das funcionalidades, permitindo a execução de operações científicas por meio de uma interface simples e intuitiva.
+O projeto desenvolvido foi uma calculadora científica via terminal capaz de realizar operações matemáticas básicas e avançadas, oferecendo resultados precisos para auxiliar usuários em atividades acadêmicas, financeiras e do cotidiano. Sendo o primeiro projeto API da graduação, a empresa parceira se trata do CADI - Centro de Aprendizagem em Desenvolvimento e Integração, Departamento de Extensão da Fatec São José dos Campos, visando proporcionar o primeiro contato da maioria dos alunos ao desenvolvimento colaborativo que irá perdurar durante os semestres.
 
-A equipe utilizou metodologias ágeis para organização das tarefas, validação das operações implementadas e acompanhamento contínuo do desenvolvimento, garantindo a qualidade da solução entregue.
-
-[GIT](https://github.com/SQLutions-FATEC/API-1-Semestre)
+[GitHub](https://github.com/SQLutions-FATEC/API-1-Semestre)
 
 #### Tecnologias Utilizadas
 
 * VisualG (Portugol): Utilizado para desenvolvimento da lógica da calculadora e implementação das operações matemáticas.
 * TypeScript: Utilizado para criar uma versão da calculadora executável em ambiente Node.js, aplicando conceitos de programação orientada a objetos e modularização.
-* Git e GitHub: Utilizados para controle de versão, organização do backlog e colaboração entre os membros da equipe.
 
 #### Contribuições Pessoais
 
-Atuando como Desenvolvedor, minhas contribuições estiveram voltadas para a estruturação da navegação da aplicação e integração das funcionalidades disponíveis na calculadora.
+Atuando como Desenvolvedor, minhas contribuições estiveram voltadas para a estruturação da navegação da aplicação, sendo responsável por:
 
-* **Desenvolvimento da Estrutura de Navegação:**
-
-  * Implementação do menu principal da aplicação.
-  * Integração das operações matemáticas ao fluxo principal de execução.
-  * Organização da experiência de utilização para facilitar o acesso às funcionalidades disponíveis.
-
-* **Integração de Funcionalidades:**
-
-  * Participação na integração das operações já desenvolvidas pela equipe.
-  * Apoio na validação do funcionamento correto das funcionalidades implementadas.
-  * Contribuição para a consolidação da versão final da calculadora.
-
-* **Controle de Versão e Integração:**
-
-  * Participação no gerenciamento de branches e integração de código através do GitHub.
-  * Colaboração na manutenção da estabilidade da aplicação durante o desenvolvimento.
+* **Desenvolvimento da Estrutura de Navegação:** Implementei na aplicação a função de menu ao Index e nas demais operações lógicas, além de contribuir para a organização da experiência de utilização para facilitar o acesso às funcionalidades disponíveis.
 
 #### Hard Skills
 
-* **Lógica de Programação:** Nível Intermediário
+* **Portugol:** Nível Básico
 
-  * Demonstração: Participei da implementação e integração das funcionalidades matemáticas da calculadora, garantindo o correto fluxo de execução das operações.
+  * Demonstração: Participei da implementação de certas funcionalidades matemáticas da calculadora, garantindo o correto fluxo de execução das operações.
 
-* **TypeScript:** Nível Básico/Intermediário
+* **TypeScript:** Nível Básico
 
-  * Demonstração: Utilizei TypeScript para desenvolvimento da versão executável da calculadora e integração das funcionalidades implementadas.
-
-* **Git e GitHub:** Nível Intermediário
-
-  * Demonstração: Utilizei versionamento de código, integração de branches e colaboração em equipe durante todo o ciclo de desenvolvimento.
+  * Demonstração: Utilizei TypeScript para organização das funcionalidades do executável da calculadora.
 
 #### Soft Skills
 
-* Trabalho em equipe: participei ativamente da divisão de tarefas e integração das funcionalidades desenvolvidas pelo grupo.
-* Organização: acompanhei o backlog do projeto para garantir o alinhamento das entregas e prioridades.
-* Comunicação: mantive contato constante com a equipe para validação das funcionalidades e resolução de problemas.
-* Proatividade: contribuí para a integração e consolidação das funcionalidades da calculadora, auxiliando na construção da versão final do projeto.
+Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft skills:
+
+* Trabalho em equipe: Participei da divisão de tarefas desenvolvidas pelo grupo.
+* Comunicação: Mantive contato com a equipe e com o meu subgrupo para validação das funcionalidades e resolução de problemas.
 
 ### Em 2024-2
 
