@@ -1,9 +1,12 @@
 # Cainã Nascimento Melo
 
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/e41a2ba1-2f65-4711-9f7a-a02ca310e230" />
+
 ## Introdução
 
-Olá! Sou estudante do curso superior tecnólogo em Banco de Dados da FATEC São José dos Campos, da turma de 2024 - atual 6° semestre. Sou formado no curso de Eletricista de Manutenção Eletroeletrônica, pelo SENAI Felix Guisard, Taubaté e minha transição de carreira para área de TI começou com os conselhos do meu cunhado, já atuante na área como Cientista de Dados. Por causa disso, realizei a prova da FATEC para a graduação de banco de dados e prossigo na área desde então.
+Olá! Sou estudante do curso superior tecnólogo em Banco de Dados da FATEC São José dos Campos, da turma de 2024 - atual 6° semestre.
 
+Em 2022, com 16 anos, através de um processo seletivo feito pelo SENAI Felix Guisard em Taubaté, tive a oportunidade de realizar um curso de Aprendizagem Industrial, especificamente como Eletricista de Manutenção Eletroeletrônica. Junto do curso, no período da tarde, eu ingressei como Jovem Aprendiz na fábrica da Nestlé em Caçapava. No final de 2023, próximo do fim do meu período escolar, através de conselhos de minha família, decide transitar para área da TI, assim realizando a prova da FATEC para uma graduação em Banco de Dados, sendo convocado para iniciar com a turma de 2024. Durante meu período de faculdade, no início de 2025, fui convocado para alistamento militar obrigatório, servindo durante 9 meses no Tiro de Guerra 02-037, em São José dos Campos. Após minha saída, me inscrevi em um processo seletivo realizado pelo CIEE, para atuar como Técnico de TI em escolas estaduais, sendo chamado em Junho de 2026 para trabalhar na Escola Ruth Coutinho Sobreiro, onde estou atuando no momento.
 ## Contatos
 * [GitHub](https://github.com/CainaNascimentoMe)
 * [LinkedIn](https://www.linkedin.com/in/cain%C3%A3-melo/)
@@ -15,7 +18,7 @@ Antes da área de TI, devido ao curso de Eletricista de Manutenção Eletroeletr
 
 ### Em 2024-1
 
-O projeto desenvolvido foi uma calculadora científica via terminal capaz de realizar operações matemáticas básicas e avançadas, oferecendo resultados precisos para auxiliar usuários em atividades acadêmicas, financeiras e do cotidiano. Sendo o primeiro projeto API da graduação, a empresa parceira se trata do CADI - Centro de Aprendizagem em Desenvolvimento e Integração, Departamento de Extensão da Fatec São José dos Campos, visando proporcionar o primeiro contato da maioria dos alunos ao desenvolvimento colaborativo que irá perdurar durante os semestres.
+A empresa parceira deste projeto foi o CADI – Centro de Aprendizagem em Desenvolvimento e Integração, Departamento de Extensão da FATEC São José dos Campos. Por se tratar do primeiro projeto de API da graduação, a demanda dos professores era o desenvolvimento de uma calculadora científica via terminal usando as linguagens de programação Portugol e TypeScrit. A calculadora deveria ser capaz de realizar operações matemáticas básicas e avançadas, fornecendo resultados precisos para auxiliar os usuários em atividades acadêmicas ou cotidianas. Com essa demanda, o recém formado SQLutions, através do programa VisualG, fomos capazes de atender ao problema proposto.
 
 [GitHub](https://github.com/SQLutions-FATEC/API-1-Semestre)
 
@@ -42,14 +45,13 @@ Atuando como Desenvolvedor, minhas contribuições estiveram voltadas para a est
 
 #### Soft Skills
 
-Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft skills:
+Durante o primeiro semestre, precisei desenvolver principalmente minha colaboração em equipe e comunicação, já que o projeto era realizado em conjunto e cada integrante ficou responsável por diferentes partes da aplicação. Tive dificuldade no início, pois foi meu primeiro contato dessa forma de ensino, mas pude contribuir ao grupo através da minha responsabilidade pela estrutura de navegação. Mesmo não sendo o principal desenvolvedor em funções da calculadora, tive que alinhar com os demais integrantes para evitar que a estrutura de navegação, de certa forma, não quebrasse alguma funcionalidade entregue. 
 
-* Trabalho em equipe: Participei da divisão de tarefas desenvolvidas pelo grupo.
-* Comunicação: Mantive contato com a equipe e com o meu subgrupo para validação das funcionalidades e resolução de problemas.
+Esse processo também contribuiu para minha organização, pois precisei dividir meu tempo diário para estudos da faculdade e para o desenvolvimento do projeto, garantindo que minha parte fosse entregue e integrada a aplicação dentro do prazo da Sprint.
 
 ### Em 2024-2
 
-O projeto desenvolvido foi um Avaliador de Soft Skills, onde a empresa parceira foi novamente o CADI - Centro de Aprendizagem em Desenvolvimento e Integração, Departamento de Extensão da Fatec São José dos Campos. As dores do cliente vinha do problema onde, professores responsáveis pelo API recebiam dos alunos uma avaliação em formato PACER (Proatividade, Autonomia, Colaboração e Entrega de Resultados), porém acabavam sendo feitos em formatos diferentes e sem o cálculo de média de cada aluno, tomando tempo dos professores. O projeto então deverá permitir que os alunos sejam capaz de avaliar outros membros de sua equipe e calcular a média de suas notas, através de uma formato padronizado que os professores receberiam. Diante disso, o sistema foi desenvolvido através de Java utilizando JavaFX para construção da interface gráfica.  
+A empresa parceira deste projeto foi novamente o CADI – Centro de Aprendizagem em Desenvolvimento e Integração, Departamento de Extensão da FATEC São José dos Campos. A dores do cliente estava no processo de avaliação de Soft Skills dos alunos, realizado por meio do modelo PACER (Proatividade, Autonomia, Colaboração e Entrega de Resultados). Os professores responsáveis pelo API recebiam as avaliações em formatos diferentes e precisavam realizar manualmente o cálculo das médias de cada aluno, tornando o processo mais trabalhoso. Como solução, o grupo desenvolveu um Avaliador de Soft Skills, permitindo que os alunos avaliassem os demais integrantes de suas equipes por meio de um formato padronizado, com o cálculo automático das médias dos alunos, além da organização das informações para os professores utilizarem sem tomarem tempo desnecessário. Diante disso, o sistema foi desenvolvido em **Java**, utilizando **JavaFX** para a construção da interface gráfica.
 
 [GitHub](https://github.com/SQLutions-FATEC/API-2-Semestre)
 
@@ -83,15 +85,14 @@ Atuando como Desenvolvedor, minhas contribuições se concentraram na implementa
 
 #### Soft Skills
 
-Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft skills:
+O segundo semestre exigiu uma maior adaptação às tecnologias que seriam utilizadas nesse projeto, principalmente em relação a Java, devido a ser meu primeiro contato com essa linguagem. Como ainda estava desenvolvendo familiaridade com essa stack, precisei conciliar o aprendizado dos novos conceitos com a implementação das funcionalidades a qual fiquei responsável, buscando compreender o desenvolvimento de telas e a integrações com o banco de dados. A colaboração em equipe também foi importante durante a criação das telas de alunos e professores, pois algumas funcionalidades dependiam de dados e componentes desenvolvidos por outros integrantes, diferente do projeto anterior, onde a maioria das funções funcionavam de modo separado.
 
-* Trabalho em equipe: Participei da integração de funcionalidades desenvolvidas por diferentes membros da equipe.
-* Comunicação: Mantive alinhamento com os demais integrantes para garantir consistência na interface gráfica.
-* Proatividade: Atuei na correção de ajustes de funcionalidades durante o desenvolvimento.
+Durante o desenvolvimento da tela de desempenho dos alunos e do relatório, enfrentei dificuldades principalmente na integração entre JavaFX e as consultas ao banco, necessitando de ajuda de outros desenvolvedores. Nesse momento, busquei desenvolver minha proatividade para investigar os erros e buscar entender as causas dos problemas até conseguir implementar corretamente.
+
 
 ### Em 2025-1
 
-O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizando esses dados no formato de planilhas que poderiam ser exportadas no formato .csv baseado na paginação escolhida pelo usuário. A empresa parceira para esse projeto foi a Altave e as dores do cliente vinha da dificuldade da administração e controle dos pontos cadastrados por trabalhadores de empresas terceirizadas em estações de manutenção de navios. O projeto então solicita um sistema capaz de registrar as entradas e saídas dos funcionários, bem como a quantidade de horas trabalhadas, contando também com dashboards gráficos e geração de relatórios dessas informações. Diante disso, o sistema foi desenvolvido através de Java com Spring Boot, usando Vue.js para criação da interface gráfica, PostgreSQL para banco de dados e Docker para execução da aplicação em um ambiente containerizado.
+A empresa parceira deste projeto foi a Altave e a principal dor do cliente estava relacionada à dificuldade de administrar e controlar os registros de ponto de trabalhadores de empresas terceirizadas que atuavam em estações de manutenção de navios, devido ao grande volume de informações dispersas. Como solução, o grupo desenvolveu um Sistema de Registro e Espelho de Pontos, capaz de registrar entradas e saídas dos funcionários, calcular a quantidade de horas trabalhadas e organizar os dados em planilhas, que poderiam ser exportadas no formato .csv, de acordo com a paginação selecionada pelo usuário. Além disso, também foram implementados dashboards gráficos e recursos para geração de relatórios, facilitando a análise dos gestores das informações. A aplicação foi desenvolvida usando Java com Spring Boot, utilizando Vue.js na interface gráfica, PostgreSQL como banco de dados e Docker para execução em um ambiente containerizado.
 
 [GitHub](https://github.com/SQLutions-FATEC/API-3-Semestre)
 
@@ -125,15 +126,14 @@ Atuando como Desenvolvedor, minhas contribuições se concentraram na construç�
     * Demonstração: Tive a primeira experiência de utilizar Docker para empacotar e executar a aplicação em um ambiente containerizado, compreendendo os conceitos básicos de imagens para o desenvolvimento local.
 
 #### Soft Skills
-Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft skills:
 
-- Comunicação: Me comunicava regularmente com o time para alinhar prioridades e identificar impedimentos.
-- Trabalho em equipe: Acompanhei o andamento dos cards do time, ofereci suporte quando possível e pedi ajuda quando necessário.
-- Proatividade: Em relação aos projetos anteriores, adotei uma postura mais proativa na resolução de problemas, contribuindo para antecipar obstáculos e integrar soluções da melhor forma.
+Durante o terceiro semestre, devido ao aumento de complexidade do projeto, ao primeiro contato de uma plataforma Kanban e sendo o primeiro projeto de uma empresa parceira fora da faculdade, precisei desenvolver minha comunicação com a equipe e a minha organização de prioridades das tasks. Durante o desenvolvimento dos endpoints de funcionários e contratos, mantive contato frequente com o grupo para esclarecer diversas dúvidas e comunicar possíveis impedimentos.
+
+Na metade da 2° Sprint, tivemos uma difícil reunião para expulsão de um desenvolvedor do projeto, que já perdurava conosco desde do primeiro semestre. Esse desenvolvedor não se comunicava com o grupo sobre as tasks que ele se responsabilizou, o que trouxe dificuldades para todos em relação as implementações que dependiam das funcionalidades que ele estava responsável. Nesse momento, minha resiliência foi testada devido a ser meu primeiro contato com esse tipo de situação e após sua retirada, a colaboração entre a equipe foi necessária para refazermos as funcionalidades que faltava. Mesmo com todas essas dificuldades, conseguimos fazer a entrega do projeto no final do semestre, onde tive minha proatividade fortalecida, devido a resolução de problemas e contribuição de soluções à tasks que não estavam atribuídas a mim.
 
 ### Em 2025-2
 
-O projeto desenvolvido foi um sistema que consolida dados de tráfego através de radares de velocidade. A empresa parceira para esse projeto foi a Prefeitura de São José dos Campos e as dores do cliente vinha do enorme fluxo de informação dispersa de dados de tráfego da cidade e, devido a isso, foi solicitado um sistema que apresenta esses dados através de dashboards interativos, com filtros de região, atualização em tempo real e com diferenciação de acesso entre cidadãos e gestores, onde os gestores receberiam avisos via Whatsapp de mudanças relacionadas ao trânsito da cidade. Semelhante a API do projeto anterior, o sistema foi desenvolvido através de Java com Sprint Boot, usando Vue.js para criação da interface gráfica, PostgreSQL para banco de dados e Docker para execução da aplicação em um ambiente containerizado.
+A empresa parceira deste projeto foi a Prefeitura de São José dos Campos e e principal dor do cliente estava no grande volume de dados de tráfego capturados pelos radares de velocidade, gerando um fluxo de informações dispersas, o que dificultavam a visualização e análise do trânsito da cidade. Como solução do problema, o grupo desenvolveu um Sistema de Consolidação e Visualização de Dados de Tráfego, que apresenta as informações por meio de dashboards interativos, com filtros por região e atualização em tempo real. O sistema também implementou diferentes níveis de acesso para cidadãos e gestores, permitindo que os gestores recebessem avisos via WhatsApp sobre alterações relevantes relacionadas ao trânsito. Assim como no projeto anterior, a aplicação foi desenvolvida em Java com Spring Boot, utilizando Vue.js para a interface gráfica, PostgreSQL como banco de dados e Docker para execução em um ambiente containerizado.
 
 [GitHub](https://github.com/SQLutions-FATEC/API-4-Semestre)
 
@@ -173,9 +173,9 @@ Atuando como Scrum Master, minhas principais contribuições estiveram relaciona
 
 #### Soft Skills
 
-* Proatividade: Assumi o cargo de Scrum Master, realizando a criação de tasks, realizando as Dailys semanais, Retros e Reviews, além de contribuir como desenvolvedor na parte do back-end da aplicação.
-* Organização: Através de um aplicativo Kanban, mantivemos consistência na realização de tasks e, por parte do desenvolvimento, foi feita a separação entre pastas de entidades, DTOs, services e controllers durante a evolução do sistema.
-* Trabalho em equipe: Semanalmente, realizava as dailys para melhor visualização do projeto e também para ver a dificuldade de cada integrante durante as Sprints. Durante as Reviews e Retros, também era acatada e analisada cada sugestão dos desenvolvedores. 
+No quarto semestre, com a saída de membros do grupo e com a entrada de outros membros vindo do curso de Análise e Desenvolvimento de Sistema, assumi a posição de Scrum Master, o que exigiu uma maior organização, responsabilidade e proatividade da minha parte. Fiquei responsável pela criação e acompanhamento das tasks dos desenvolvedores, pelas organização das Dailys, Reviews e Retros, enquanto também contribuía diretamente no desenvolvimento do back-end da aplicação. Como SM, também precisei explicar sobre nossas diretrizes de grupo para os novos integrantes, sobre o padrão de commit e sobre os acordos de permanência na equipe.
+
+De semelhante modo ao semestre anterior, tivemos dificuldade com um dos desenvolvedores, devido a sua falha em entregar as tasks a que foram atribuídas. Realizamos uma votação democrática na primeira sprint sobre sua permanência e, baseado na maioria, o mantivemos por mais uma Sprint, em busca de mudanças de sua parte. Porém, o mesmo problema se repetiu novamente e após isso, decidimos realizar a sua expulsão do grupo. Todos os integrantes então tiveram que correr contra o tempo para finalizar as tasks a qual o desenvolvedor expulso estava com, pois suas funcionalidades eram essenciais para a entrega do projeto. No final do semestre, após entregue o projeto, pude notar altas mudanças na minha organização de atividades e na colaboração com a equipe, sendo aplicado no acompanhamento de tarefas, nos impedimentos individuais dos desenvolvedores e nas sugestões de melhores apresentadas pelo grupo. 
 
 ### Em 2026-1
 Mesmo formato
