@@ -90,48 +90,46 @@ Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft ski
 * Proatividade: atuei na correção de ajustes de funcionalidades durante o desenvolvimento.
 
 ### Em 2025-1
-O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizando esses dados no formato de planilhas que poderiam ser exportadas posteriormente no formato .csv baseado na paginação escolhida pelo usuário. A empresa parceira para esse projeto foi a Altave e o problema a ser resolvido era a dificuldade da administração e controle dos pontos cadastrados por trabalhadores de empresas terceirizadas em estações de manutenção de navios. Como citado anteriormente, a solução entregue foi o sistema de registro de pontos com cadastro de empresas, seus funcionários, os pontos em questão e os contratos entre as empresas e os colaboradores, delimitando o tempo pelo qual os colaboradores atuarão.
 
-[GIT](https://www.git.com)
+O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizando esses dados no formato de planilhas que poderiam ser exportadas no formato .csv baseado na paginação escolhida pelo usuário. A empresa parceira para esse projeto foi a Altave e as dores do cliente vinha da dificuldade da administração e controle dos pontos cadastrados por trabalhadores de empresas terceirizadas em estações de manutenção de navios. O projeto então solicita um sistema capaz de registrar as entradas e saídas dos funcionários, bem como a quantidade de horas trabalhadas, contando também com dashboards gráficos e geração de relatórios dessas informações. Diante disso, o sistema foi desenvolvimento através de Java com Spring Boot, usando Vue.js para criação da interface gráfica, PostgreSQL para banco de dados e Docker para executar a aplicação em um ambiente containerizado.
+
+[GitHub](https://github.com/SQLutions-FATEC/API-3-Semestre)
 
 #### Tecnologias Utilizadas
-- Java: É a linguagem de programação usada para construir a lógica de negócio do sistema, sendo utilizada prioritariamente no back-end. Sua robustez garante a confiabilidade das regras de registro de ponto.
-- Spring Boot: Atua como o esqueleto do back-end, acelerando o desenvolvimento de APIs REST para gerenciar os dados de registro e espelho de ponto, sendo o principal framework usado na linguagem Java.
-- PostgreSQL: É o banco de dados que armazena de forma segura todos os registros de ponto e informações dos funcionários, garantindo a integridade dos dados.
-- Vue.js: Framework de Javascript, é reponsável por ciar a interface do usuário, permitindo que os funcionários e gestores interajam com o sistema de forma dinâmica e intuitiva para registrar e visualizar os pontos.
-- Ant Design Vue: Fornece um conjunto de componentes visuais prontos, garantindo uma interface profissional e consistente, o que melhora a usabilidade do sistema de registro de ponto.
-- Docker: Empacota todas as partes do projeto (back-end, front-end e banco de dados) em contêineres, facilitando a implantação e garantindo que o sistema funcione perfeitamente em qualquer ambiente.
+- Java: Linguagem de programação utilizada para construção da lógica de negócio do sistema, utilizada prioritariamente no back-end.
+- Spring Boot: Atuou como principal framework usado na linguagem Java, acelerando o desenvolvimento de APIs REST para gerenciamento dos dados de registro de ponto.
+- PostgreSQL: Banco de dados que armazenou todos os registros de ponto e informações dos funcionários, garantindo a integridade dos dados.
+- Vue.js: Framework de Javascript, responsável pela criação da interface do usuário, permitindo que os funcionários e gestores interajam com o sistema de forma dinâmica para visualizar dos pontos.
+- Docker: Através de contêineres, empacotou todas as partes de nossa aplicação (back-end, front-end e banco de dados), garantindo que o sistema funcione em qualquer ambiente.
 
 #### Contribuições Pessoais
-Atuando como Desenvolvedor Full-Stack, minhas contribuições se concentraram na construção da interface de usuário e na garantia da comunicação com a API. Fui responsável por:
+Atuando como Desenvolvedor, minhas contribuições se concentraram na construção da interface de usuário e na garantia da comunicação com a API. Fui responsável por:
 
-* **Desenvolvimento do Módulo de Funcionários em Vue.js:** Criei as principais interfaces para o gerenciamento de funcionários, incluindo:
-  * A tela de visualização e edição, com validações para garantir a integridade dos dados.
-  * Um modal integrado para o cadastro e atribuição de cargos (funções), simplificando o fluxo de trabalho do usuário.
-  * Ajustes de navegação, como a implementação de um hyperlink para acesso rápido à edição, e correções de responsividade para garantir consistência visual.
+* **Desenvolvimento do Endpoint de Funcionário:** Utilizando Java e Sprint Boot, implementei o enpoint de funcionário para criação de cadastros. Criei o Controller, que recebeu a requisição para cadastrar o funcionário, o DTO, que recebeu e validou os dados enviados, e o Service, que ficou responsável pela lógica de criação. Também implementei o Model e o Repository para comunicação com o banco de dados, permitindo assim que os dados recebidos pelo endpoint fossem validados, transformados em informações de um funcionário e depois catalogado no banco de dados.
 
-* **Reestruturação da API de Contratos:** Após diagnosticar uma falha de comunicação entre o front-end e o back-end, assumi a tarefa de refatorar a API. Utilizando **Java com Spring Boot**, reestruturei os endpoints, ajustei a `entity` de Contrato, os DTOs (request/response) e os DAOs. Essa intervenção foi crucial para viabilizar a integração e o funcionamento correto do módulo de contratos.
+* **Desenvolvimento do Endpoint de Contrato:** Desenvolvi o gerenciamento de contrato, implementendo os endpoints para criar, atualizar, excluir e consultar contratos, onde também pode realizar a busca de contratos relacionados a um funcionário ou empresa. Semelhante ao endpoint de Funcionário, foi feito um Controller, um DTO e um Service para o Contrato.
+
+* **Registro de Movimentações dos Funcionários:** Na funcionalidade de registro de movimentações de funcionários, alterei o modelo para trabalhar com data e hora de entrada e saída, permitindo o cálculo automático das horas trabalhadas. Também foi adicionado novos filtros de pesquisa por quantidade mínima e máxima de horas trabalhadas.
+
+* **Aproximação de Valores Mockados:** Substitui os registros genéricos de empresas e funcionários por dados mais próximos de um cenário real de utilização, sendo ajustados informações de funcionários, como nomes, datas de nascimentos, sexo e tipo sanguíneo.
 
 #### Hard Skills
 
-* **Vue.js (JavaScript, HTML, CSS):** Nível Intermediário/Autônomo
-    * *Demonstração:* Desenvolvi de forma autônoma as telas de visualização e edição de funcionários, incluindo a criação de componentes reativos como o modal de cadastro de função e a implementação de validações de formulário.
+* **Java com Spring Boot:** Nível Intermediário
+    * *Demonstração:* Adquiri conhecimento na construção da arquitetura de API REST, onde fui responsável pela criação de  `controllers`, `services`, `entities` com JPA de dois endpoints, e por estruturar DTOs para a manipulação e transferência de dados entre o cliente e o servidor.
 
-* **Java com Spring Boot:** Nível Avançado
-    * *Demonstração:* Adquiri conhecimento avançado na construção da arquitetura da API REST, sendo responsável por criar `controllers`, `services`, `entities` com JPA, e por estruturar DTOs e DAOs para a correta manipulação e transferência de dados entre o cliente e o servidor.
-
-* **PostgreSQL e SQL:** Nível Intermediário
-    * *Demonstração:* Superei o conhecimento básico em SQL, realizando consultas para suportar as funcionalidades da API e modelando as entidades do banco de dados para garantir a persistência correta das informações de contratos e funcionários.
+* **PostgreSQL:** Nível Intermediário
+    * *Demonstração:* Aumentei o conhecimento básico em SQL, realizando consultas para suportar as funcionalidades da API e modelando as entidades do banco de dados para garantir a persistência das informações de contratos e funcionários.
 
 * **Docker:** Nível Básico
-    * *Demonstração:* Tive a experiência de utilizar Docker para empacotar e executar a aplicação em um ambiente containerizado, compreendendo os conceitos básicos de imagens e contêineres para o desenvolvimento local.
+    * *Demonstração:* Tive a primeira experiência de utilizar Docker para empacotar e executar a aplicação em um ambiente containerizado, compreendendo os conceitos básicos de imagens para o desenvolvimento local.
 
 #### Soft Skills
-Ao longo dos projetos desenvolvidos, pratiquei e aperfeiçoei as seguintes soft skills:
+Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft skills:
 
-- Comunicação: Me comunicava regularmente com todo o time para alinhar prioridades, identificar impedimentos e explicar soluções de forma clara para colegas com níveis de experiência distintos.
-- Trabalho em equipe: acompanhei o andamento dos cards do time, ofereci suporte quando possível e pedi ajuda quando necessário, sempre buscando aprender com membros mais experientes.
-- Proatividade: adotei postura proativa na identificação e resolução de problemas, contribuindo para antecipar obstáculos e integrar soluções de forma mais eficiente.
+- Comunicação: Me comunicava regularmente com o time para alinhar prioridades e identificar impedimentos.
+- Trabalho em equipe: Acompanhei o andamento dos cards do time, ofereci suporte quando possível e pedi ajuda quando necessário.
+- Proatividade: Em relação aos projetos anteriores, adotei uma postura mais proativa na resolução de problemas, contribuindo para antecipar obstáculos e integrar soluções da melhor forma.
 
 ### Em 2025-2
 
