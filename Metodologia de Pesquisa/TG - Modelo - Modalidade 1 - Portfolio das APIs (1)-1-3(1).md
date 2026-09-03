@@ -2,14 +2,14 @@
 
 ## Introdução
 
-Olá! Sou estudante do curso superior tecnólogo em Banco de Dados da FATEC São José dos Campos, da turma de 2024 - atual 6° semestre. Sou formado no curso de Eletricista de Manutenção Eletroeletrônica, pelo SENAI Felix Guisard, Taubaté e minha transição de carreira para área de TI começou com os conselhos do meu cunhado, já atuante na área como Cientista de Dados.
+Olá! Sou estudante do curso superior tecnólogo em Banco de Dados da FATEC São José dos Campos, da turma de 2024 - atual 6° semestre. Sou formado no curso de Eletricista de Manutenção Eletroeletrônica, pelo SENAI Felix Guisard, Taubaté e minha transição de carreira para área de TI começou com os conselhos do meu cunhado, já atuante na área como Cientista de Dados. Por causa disso, realizei a prova da FATEC para a graduação de banco de dados e prossigo na área desde então.
 
 ## Contatos
 * [GitHub](https://github.com/CainaNascimentoMe)
 * [LinkedIn](https://www.linkedin.com/in/cain%C3%A3-melo/)
 ## Meus Principais Conhecimentos
 
-Antes da área de TI, devido ao curso de Eletricista de Manutenção Eletroeletrônica, adquiri conhecimentos da linguagem Ladder (diagrama em escada), uma linguagem de programação gráfica que é usada principalmente para o funcionamento de Controladores Lógicos Programáveis (CLPs) no escopo da automação industrial. Atualmente, sendo graduando do curso de Banco de Dados, minha stack principal inclui Java (Back‑End) com Spring Boot, Python (Back-End) com Django, Python (Front-End) com React bancos relacionais MySQL, controle de versão com Git/GitHub. Também sou familiarizado com práticas ágeis (Scrum e Kanban).
+Antes da área de TI, devido ao curso de Eletricista de Manutenção Eletroeletrônica, adquiri conhecimentos da linguagem Ladder (diagrama em escada), uma linguagem de programação gráfica que é usada principalmente para o funcionamento de Controladores Lógicos Programáveis (CLPs) no escopo da automação industrial. Atualmente, sendo graduando do curso de Banco de Dados, minha stack principal inclui Java (Back‑End) com Spring Boot, Python (Back-End) com Django, Python (Front-End) com React, bancos relacionais MySQL, controle de versionamento com Git/GitHub e metodologia de práticas ágeis (Scrum e Kanban).
 
 ## Meus Projetos
 
@@ -49,7 +49,7 @@ Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft ski
 
 ### Em 2024-2
 
-O projeto desenvolvido foi um Avaliador de Soft Skills, onde a empresa parceira foi novamente o CADI - Centro de Aprendizagem em Desenvolvimento e Integração, Departamento de Extensão da Fatec São José dos Campos. As dores do cliente vinha do problema onde, professores responsáveis pelo API recebiam dos alunos uma avaliação em formato PACER (Proatividade, Autonomia, Colaboração e Entrega de Resultados), porém, acabavam sendo feitos em formatos diferentes e sem o cálculo de média de cada aluno, tomando tempo dos professores. O projeto então deverá permitir que os alunos sejam capaz de avaliar outros membros de sua equipe e calcular a média de suas notas, através de uma formato padronizado que os professores receberiam. Diante disso, o sistema foi desenvolvido através de Java utilizando JavaFX para construção da interface gráfica.  
+O projeto desenvolvido foi um Avaliador de Soft Skills, onde a empresa parceira foi novamente o CADI - Centro de Aprendizagem em Desenvolvimento e Integração, Departamento de Extensão da Fatec São José dos Campos. As dores do cliente vinha do problema onde, professores responsáveis pelo API recebiam dos alunos uma avaliação em formato PACER (Proatividade, Autonomia, Colaboração e Entrega de Resultados), porém acabavam sendo feitos em formatos diferentes e sem o cálculo de média de cada aluno, tomando tempo dos professores. O projeto então deverá permitir que os alunos sejam capaz de avaliar outros membros de sua equipe e calcular a média de suas notas, através de uma formato padronizado que os professores receberiam. Diante disso, o sistema foi desenvolvido através de Java utilizando JavaFX para construção da interface gráfica.  
 
 [GitHub](https://github.com/SQLutions-FATEC/API-2-Semestre)
 
@@ -63,21 +63,21 @@ O projeto desenvolvido foi um Avaliador de Soft Skills, onde a empresa parceira 
 
 Atuando como Desenvolvedor, minhas contribuições se concentraram na implementação de funcionalidades da interface acadêmica voltada para professores e alunos, sendo responsável por:
 
-* **Desenvolvimento da Tela de Edição de Alunos:** Implementei uma nova tela para edição dos alunos capaz de transitar entre a tela dos professores e a tela de edição. Nesta tela de edição, foram disponibilizadas opções para selecionar o usuário, alterar sua equipe, confirmar as alterações ou deletar o usuário."
+* **Desenvolvimento da Tela de Edição de Alunos:** Implementei uma nova tela para edição dos alunos capaz de transitar entre a mesma e a tela dos professores. Nesta tela de edição, foram disponibilizadas opções para selecionar o usuário, alterar sua equipe, confirmar as alterações ou deletar o usuário."
 
 * **Consulta de Desempenho dos Alunos:** Implementei uma tela para consulta dos desempenhos dos alunos, permitindo a seleção dos professores entre as equipes, sprints e semestres. Foi feita a integração com o banco de dados para carregar as sprints disponíveis e através de uma tabela, o professor poderia visualizar os alunos e suas avaliações de proatividade, autonomia, colaboração e entrega.
 
 #### Hard Skills
 
-* **Java:** Nível Intermediário
+* **Java:** Nível Básico/Intermediário
 
   * Demonstração: Desenvolvi controllers relacionados à manipulação de dados acadêmicos. Também fiz a integração com banco de dados e consultas SQL. 
 
-* **JavaFX:** Nível Intermediário
+* **JavaFX:** Nível Básico/Intermediário
 
   * Demonstração: Criei telas de professores e alunos através do FXML, implementei tabelas de visualização e recursos de busca e filtragem.
 
-* **Git e GitHub:** Nível Intermediário
+* **Git e GitHub:** Nível Básico/Intermediário
 
   * Demonstração: Realizei merges e colaborei continuamente no desenvolvimento utilizando Pull Requests.
 
@@ -85,9 +85,9 @@ Atuando como Desenvolvedor, minhas contribuições se concentraram na implementa
 
 Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft skills:
 
-* Trabalho em equipe: participei da integração de funcionalidades desenvolvidas por diferentes membros da equipe.
-* Comunicação: mantive alinhamento com os demais integrantes para garantir consistência na interface gráfica.
-* Proatividade: atuei na correção de ajustes de funcionalidades durante o desenvolvimento.
+* Trabalho em equipe: Participei da integração de funcionalidades desenvolvidas por diferentes membros da equipe.
+* Comunicação: Mantive alinhamento com os demais integrantes para garantir consistência na interface gráfica.
+* Proatividade: Atuei na correção de ajustes de funcionalidades durante o desenvolvimento.
 
 ### Em 2025-1
 
@@ -99,7 +99,7 @@ O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizan
 - Java: Linguagem de programação utilizada para construção da lógica de negócio do sistema, utilizada prioritariamente no back-end.
 - Spring Boot: Atuou como principal framework usado na linguagem Java, acelerando o desenvolvimento de APIs REST para gerenciamento dos dados de registro de ponto.
 - PostgreSQL: Banco de dados que armazenou todos os registros de ponto e informações dos funcionários, garantindo a integridade dos dados.
-- Vue.js: Framework de Javascript, responsável pela criação da interface do usuário, permitindo que os funcionários e gestores interajam com o sistema de forma dinâmica para visualizar dos pontos.
+- Vue.js: Framework de Javascript, responsável pela criação da interface do usuário, permitindo que os funcionários e gestores interajam com o sistema de forma dinâmica para visualização dos pontos.
 - Docker: Através de contêineres, empacotou todas as partes de nossa aplicação (back-end, front-end e banco de dados), garantindo que o sistema funcione em qualquer ambiente.
 
 #### Contribuições Pessoais
@@ -107,7 +107,7 @@ Atuando como Desenvolvedor, minhas contribuições se concentraram na construç�
 
 * **Desenvolvimento do Endpoint de Funcionário:** Utilizando Java e Sprint Boot, implementei o enpoint de funcionário para criação de cadastros. Criei o Controller, que recebeu a requisição para cadastrar o funcionário, o DTO, que recebeu e validou os dados enviados, e o Service, que ficou responsável pela lógica de criação. Também implementei o Model e o Repository para comunicação com o banco de dados, permitindo assim que os dados recebidos pelo endpoint fossem validados, transformados em informações de um funcionário e depois catalogado no banco de dados.
 
-* **Desenvolvimento do Endpoint de Contrato:** Desenvolvi o gerenciamento de contrato, implementendo os endpoints para criar, atualizar, excluir e consultar contratos, onde também pode realizar a busca de contratos relacionados a um funcionário ou empresa. Semelhante ao endpoint de Funcionário, foi feito um Controller, um DTO e um Service para o Contrato.
+* **Desenvolvimento do Endpoint de Contrato:** Desenvolvi o gerenciamento de contrato, implementendo os endpoints para criar, atualizar, excluir e consultar contratos, onde também pode realizar a busca de contratos relacionados a um funcionário ou empresa em específico.
 
 * **Registro de Movimentações dos Funcionários:** Na funcionalidade de registro de movimentações de funcionários, alterei o modelo para trabalhar com data e hora de entrada e saída, permitindo o cálculo automático das horas trabalhadas. Também foi adicionado novos filtros de pesquisa por quantidade mínima e máxima de horas trabalhadas.
 
@@ -116,13 +116,13 @@ Atuando como Desenvolvedor, minhas contribuições se concentraram na construç�
 #### Hard Skills
 
 * **Java com Spring Boot:** Nível Intermediário
-    * *Demonstração:* Adquiri conhecimento na construção da arquitetura de API REST, onde fui responsável pela criação de  `controllers`, `services`, `entities` com JPA de dois endpoints, e por estruturar DTOs para a manipulação e transferência de dados entre o cliente e o servidor.
+    * Demonstração: Adquiri conhecimento na construção da arquitetura de API REST, onde fui responsável pela criação de  Controllers, Services e Entitys de dois endpoints, e por estruturar DTOs para a manipulação e transferência de dados entre o cliente e o servidor.
 
 * **PostgreSQL:** Nível Intermediário
-    * *Demonstração:* Aumentei o conhecimento básico em SQL, realizando consultas para suportar as funcionalidades da API e modelando as entidades do banco de dados para garantir a persistência das informações de contratos e funcionários.
+    * Demonstração: Aumentei o conhecimento básico em SQL, realizando consultas para suportar as funcionalidades da API e modelando as entidades do banco de dados para garantir a persistência das informações de contratos e funcionários.
 
 * **Docker:** Nível Básico
-    * *Demonstração:* Tive a primeira experiência de utilizar Docker para empacotar e executar a aplicação em um ambiente containerizado, compreendendo os conceitos básicos de imagens para o desenvolvimento local.
+    * Demonstração: Tive a primeira experiência de utilizar Docker para empacotar e executar a aplicação em um ambiente containerizado, compreendendo os conceitos básicos de imagens para o desenvolvimento local.
 
 #### Soft Skills
 Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft skills:
@@ -133,7 +133,7 @@ Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft ski
 
 ### Em 2025-2
 
-O projeto desenvolvido foi um sistema que consolida dados de tráfego através de radares de velocidade. A empresa parceira para esse projeto foi a Prefeitura de São José dos Campos e as dores do cliente vinha do enorme fluxo de informação dispersa de dados de tráfego da cidade e, devido a isso, foi solicitado um sistema que apresenta esses dados através de dashboards interativos, com filtros de região, atualização em tempo real e com diferenciação de acesso entre cidadãos e gestores. Diante disso, o sistema foi desenvolvido através de Java com Sprint Boot, usando Vue.js para criação da interface gráfica, PostgreSQL para banco de dados e Docker para execução da aplicação em um ambiente containerizado.
+O projeto desenvolvido foi um sistema que consolida dados de tráfego através de radares de velocidade. A empresa parceira para esse projeto foi a Prefeitura de São José dos Campos e as dores do cliente vinha do enorme fluxo de informação dispersa de dados de tráfego da cidade e, devido a isso, foi solicitado um sistema que apresenta esses dados através de dashboards interativos, com filtros de região, atualização em tempo real e com diferenciação de acesso entre cidadãos e gestores, onde os gestores receberiam avisos via Whatsapp de mudanças relacionadas ao trânsito da cidade. Semelhante a API do projeto anterior, o sistema foi desenvolvido através de Java com Sprint Boot, usando Vue.js para criação da interface gráfica, PostgreSQL para banco de dados e Docker para execução da aplicação em um ambiente containerizado.
 
 [GitHub](https://github.com/SQLutions-FATEC/API-4-Semestre)
 
@@ -147,13 +147,15 @@ O projeto desenvolvido foi um sistema que consolida dados de tráfego através d
 
 #### Contribuições Pessoais
 
-Atuando como Scrum Master, minhas principais contribuições estiveram relacionadas à criação e a visualização das tasks pegas pelos desenvolvedores, além de desenvolver endpoints relacionados a Usuários e Endereços, além da criação de filtros de regiões e ruas, sendo responsável por: 
+Atuando como Scrum Master, minhas principais contribuições estiveram relacionadas à criação e a visualização das tasks pegas pelos desenvolvedores, no monitoramento do API através de Dailys semanais, além de desenvolver endpoints relacionados a Usuários e Endereços, e também da criação de filtros de regiões e ruas, sendo responsável por: 
 
-* **Desenvolvimento do Endpoint de Usuário:** Implementei a estrutura completa de gerenciamento de usuários no backend, seguindo a arquitetura em camadas do Spring Boot. Foi criada a entidade User, contendo dados como nome, e-mail, senha e nível de acesso, além do enum Role para representar os perfis de Administrador e Gestor. Também foram implementados o UserRepository, UserService e o UserController, disponibilizando endpoints para criação, consulta, atualização e exclusão de usuários.
+* **Criação e Monitoramente de Tasks:** Através de uma plataforma Kanban, fiz a criação das tasks no início de cada sprint, junto com sua respectiva descrição e story point estimado no Plaining Poker. Diariamente, monitorava a plataforma para ver a evolução dos desenvolvedores nas tasks realizadas.
 
-* **Desenvolvimento do Endpoint de Endereços:** Assim como Usuário, desenvolvi a estrutura responsável pelo gerenciamento de endereços da aplicação, implementando a entidade Address com atributos relacionados ao endereço, bairro e região. Para estruturar o acesso aos dados, foram criados o AddressRepository, a interface AddressService e sua implementação AddressServiceImpl, responsáveis pelas operações de persistência, consulta, atualização e exclusão. Também foi criado o AddressController para realizar as operações de CRUD sobre os endereços.
+* **Desenvolvimento do Endpoint de Usuário:** Implementei a estrutura completa de gerenciamento de usuários no backend, seguindo a arquitetura em camadas do Spring Boot. Foi criada a entidade User, contendo dados como nome, e-mail, senha e nível de acesso, além do Role para representar os perfis de Cidadão e Gestor. Também foram implementados o UserRepository, UserService e o UserController, disponibilizando endpoints para criação, consulta, atualização e exclusão de usuários.
 
-* **Filtragem de Regiões e Ruas:** Nos recursos de consulta dos dados de leitura da aplicação, adicionei suporte à filtragem por região e endereço. Foi criado um novo endpoint para obtenção dos índices de uma região e outro para consulta dos índices de um endereço específico, permitindo definir o intervalo de tempo utilizado no cálculo. Com isso, o back-end passou a permitir a geração de índices de forma mais detalhada, possibilitando análises tanto por região quanto por endereço.
+* **Desenvolvimento do Endpoint de Endereços:** Assim como na criação do endpoint de Usuário, desenvolvi a estrutura responsável pelo gerenciamento de endereços da aplicação, implementando a entidade Address com atributos relacionados ao endereço, bairro e região. Para estruturar o acesso aos dados, foram criados o AddressRepository, a interface AddressService e sua implementação AddressServiceImpl, responsáveis pelas operações de consulta, atualização e exclusão. O AddressController também foi criado para realizar as operações de CRUD sobre os endereços.
+
+* **Filtragem de Regiões e Ruas:** Nos recursos de consulta dos dados de leitura da aplicação, adicionei suporte à filtragem por região e endereço. Foi criado um novo endpoint para obtenção dos índices de uma região e outro para consulta dos índices de um endereço específico, permitindo definir o intervalo de tempo utilizado no cálculo. Com isso, o back-end passou a permitir a geração de índices de forma mais detalhada, O que possibilitou análises tanto por região quanto por endereço.
 
 #### Hard Skills
 
@@ -161,7 +163,7 @@ Atuando como Scrum Master, minhas principais contribuições estiveram relaciona
   * Demonstração: Utilizando a arquitetura de camadas do Spring Boot, desenvolvi entidades, services e controllers para gerenciamento de usuários, endereços e consultas de índices.
 
 * **APIs REST:** Nível Intermediário
-  * Demonstração: Implementei endpoints REST para operações de CRUD e consultas com filtros por região e endereço
+  * Demonstração: Implementei endpoints REST para operações de CRUD e consultas com filtros por região e endereço.
 
 * **Banco de Dados Relacional:** Nível Intermediário
   * Demonstração: Modelei entidades para representar usuários, endereços, regiões e demais dados utilizados pela aplicação, integrando o back-end ao banco de dados.
