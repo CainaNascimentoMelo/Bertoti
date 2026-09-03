@@ -91,7 +91,7 @@ Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft ski
 
 ### Em 2025-1
 
-O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizando esses dados no formato de planilhas que poderiam ser exportadas no formato .csv baseado na paginação escolhida pelo usuário. A empresa parceira para esse projeto foi a Altave e as dores do cliente vinha da dificuldade da administração e controle dos pontos cadastrados por trabalhadores de empresas terceirizadas em estações de manutenção de navios. O projeto então solicita um sistema capaz de registrar as entradas e saídas dos funcionários, bem como a quantidade de horas trabalhadas, contando também com dashboards gráficos e geração de relatórios dessas informações. Diante disso, o sistema foi desenvolvimento através de Java com Spring Boot, usando Vue.js para criação da interface gráfica, PostgreSQL para banco de dados e Docker para executar a aplicação em um ambiente containerizado.
+O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizando esses dados no formato de planilhas que poderiam ser exportadas no formato .csv baseado na paginação escolhida pelo usuário. A empresa parceira para esse projeto foi a Altave e as dores do cliente vinha da dificuldade da administração e controle dos pontos cadastrados por trabalhadores de empresas terceirizadas em estações de manutenção de navios. O projeto então solicita um sistema capaz de registrar as entradas e saídas dos funcionários, bem como a quantidade de horas trabalhadas, contando também com dashboards gráficos e geração de relatórios dessas informações. Diante disso, o sistema foi desenvolvido através de Java com Spring Boot, usando Vue.js para criação da interface gráfica, PostgreSQL para banco de dados e Docker para execução da aplicação em um ambiente containerizado.
 
 [GitHub](https://github.com/SQLutions-FATEC/API-3-Semestre)
 
@@ -103,7 +103,7 @@ O projeto desenvolvido foi um sistema de registro e espelho de pontos, organizan
 - Docker: Através de contêineres, empacotou todas as partes de nossa aplicação (back-end, front-end e banco de dados), garantindo que o sistema funcione em qualquer ambiente.
 
 #### Contribuições Pessoais
-Atuando como Desenvolvedor, minhas contribuições se concentraram na construção da interface de usuário e na garantia da comunicação com a API. Fui responsável por:
+Atuando como Desenvolvedor, minhas contribuições se concentraram na construção dos endpoints e na alocação dos dados de movimentação de funcionários, sendo responsável por:
 
 * **Desenvolvimento do Endpoint de Funcionário:** Utilizando Java e Sprint Boot, implementei o enpoint de funcionário para criação de cadastros. Criei o Controller, que recebeu a requisição para cadastrar o funcionário, o DTO, que recebeu e validou os dados enviados, e o Service, que ficou responsável pela lógica de criação. Também implementei o Model e o Repository para comunicação com o banco de dados, permitindo assim que os dados recebidos pelo endpoint fossem validados, transformados em informações de um funcionário e depois catalogado no banco de dados.
 
@@ -133,79 +133,47 @@ Ao longo do projeto desenvolvido, pratiquei e aperfeiçoei as seguintes soft ski
 
 ### Em 2025-2
 
-O projeto desenvolvido foi um sistema de gerenciamento de funcionários, contratos e registros de movimentação de ponto. A aplicação tinha como objetivo centralizar o cadastro de colaboradores, contratos de trabalho e registros de entrada e saída, fornecendo informações consolidadas sobre jornadas de trabalho e vínculos empregatícios.
+O projeto desenvolvido foi um sistema que consolida dados de tráfego através de radares de velocidade. A empresa parceira para esse projeto foi a Prefeitura de São José dos Campos e as dores do cliente vinha do enorme fluxo de informação dispersa de dados de tráfego da cidade e, devido a isso, foi solicitado um sistema que apresenta esses dados através de dashboards interativos, com filtros de região, atualização em tempo real e com diferenciação de acesso entre cidadãos e gestores. Diante disso, o sistema foi desenvolvido através de Java com Sprint Boot, usando Vue.js para criação da interface gráfica, PostgreSQL para banco de dados e Docker para execução da aplicação em um ambiente containerizado.
 
-[GIT](https://github.com/SQLutions-FATEC/API-3-Semestre-Backend)
+[GitHub](https://github.com/SQLutions-FATEC/API-4-Semestre)
 
 #### Tecnologias Utilizadas
 
-* Java: Linguagem utilizada para implementação da lógica de negócio.
-* Spring Boot: Framework principal para construção da API REST.
-* Spring Data JPA: Utilizado para persistência e manipulação das entidades do sistema.
-* PostgreSQL: Banco de dados relacional utilizado para armazenamento das informações.
-* Maven: Gerenciamento de dependências e build do projeto.
-* Git e GitHub: Controle de versão e colaboração entre os membros da equipe.
+- Java: Linguagem de programação utilizada para construção da lógica de negócio do sistema, utilizada prioritariamente no back-end.
+- Spring Boot: Atuou como principal framework usado na linguagem Java, acelerando o desenvolvimento de APIs REST para gerenciamento dos dados de tráfego.
+- PostgreSQL: Banco de dados que armazenou todos os dados recebidos pelos radares de velocidade, garantindo a integridade dos dados.
+- Vue.js: Framework de Javascript, responsável pela criação da interface do sistema, permitindo que os cidadãos e gestores interajam com o sistema de forma dinâmica para visualizar os pontos de tráfego pela cidade.
+- Docker: Através de contêineres, empacotou todas as partes de nossa aplicação (back-end, front-end e banco de dados), garantindo que o sistema funcione em qualquer ambiente.
 
 #### Contribuições Pessoais
 
-Atuando como Desenvolvedor Back-End, minhas principais contribuições estiveram relacionadas à criação da arquitetura de contratos, funcionários e registros de movimentação.
+Atuando como Scrum Master, minhas principais contribuições estiveram relacionadas à criação e a visualização das tasks pegas pelos desenvolvedores, além de desenvolver endpoints relacionados a Usuários e Endereços, além da criação de filtros de regiões e ruas, sendo responsável por: 
 
-* **Módulo de Funcionários:**
+* **Desenvolvimento do Endpoint de Usuário:** Implementei a estrutura completa de gerenciamento de usuários no backend, seguindo a arquitetura em camadas do Spring Boot. Foi criada a entidade User, contendo dados como nome, e-mail, senha e nível de acesso, além do enum Role para representar os perfis de Administrador e Gestor. Também foram implementados o UserRepository, UserService e o UserController, disponibilizando endpoints para criação, consulta, atualização e exclusão de usuários.
 
-  * Criação da entidade Funcionario utilizando JPA.
-  * Desenvolvimento do FuncionarioDTO.
-  * Implementação do FuncionarioRepository.
-  * Desenvolvimento do serviço de criação de funcionários.
-  * Criação do endpoint POST para cadastro de funcionários.
+* **Desenvolvimento do Endpoint de Endereços:** Assim como Usuário, desenvolvi a estrutura responsável pelo gerenciamento de endereços da aplicação, implementando a entidade Address com atributos relacionados ao endereço, bairro e região. Para estruturar o acesso aos dados, foram criados o AddressRepository, a interface AddressService e sua implementação AddressServiceImpl, responsáveis pelas operações de persistência, consulta, atualização e exclusão. Também foi criado o AddressController para realizar as operações de CRUD sobre os endereços.
 
-* **Módulo de Contratos:**
-
-  * Desenvolvimento completo da estrutura de contratos.
-  * Criação do ContractController.
-  * Implementação dos DTOs de requisição e resposta.
-  * Criação do ContractService e ContractServiceImpl.
-  * Implementação dos endpoints de criação, atualização e remoção de contratos.
-  * Integração entre contratos e cargos (Roles).
-
-* **Módulo de Registros de Ponto:**
-
-  * Implementação dos campos de data e hora de saída.
-  * Inclusão do relacionamento com contratos na entidade ClockIn.
-  * Desenvolvimento dos métodos responsáveis pelo cálculo e visualização das horas trabalhadas.
-  * Adição do número de registro nas respostas da API.
-  * Ajustes e refatorações de dados mock para aproximação de cenários reais.
-
-* **Manutenção e Refatoração:**
-
-  * Correção de inconsistências em serviços e controllers.
-  * Ajustes de padronização de dados.
-  * Participação ativa na integração de branches e resolução de conflitos.
+* **Filtragem de Regiões e Ruas:** Nos recursos de consulta dos dados de leitura da aplicação, adicionei suporte à filtragem por região e endereço. Foi criado um novo endpoint para obtenção dos índices de uma região e outro para consulta dos índices de um endereço específico, permitindo definir o intervalo de tempo utilizado no cálculo. Com isso, o back-end passou a permitir a geração de índices de forma mais detalhada, possibilitando análises tanto por região quanto por endereço.
 
 #### Hard Skills
 
-* **Java com Spring Boot:** Nível Avançado
+* **Java com Spring Boot:** Nível Intermediário/Avançado
+  * Demonstração: Utilizando a arquitetura de camadas do Spring Boot, desenvolvi entidades, services e controllers para gerenciamento de usuários, endereços e consultas de índices.
 
-  * Demonstração: Desenvolvi controllers, services, DTOs, repositories e entidades responsáveis pelos módulos de funcionários, contratos e registros de ponto.
-
-* **JPA/Hibernate:** Nível Avançado
-
-  * Demonstração: Modelei entidades, relacionamentos e persistência de dados utilizando Spring Data JPA.
-
-* **APIs REST:** Nível Avançado
-
-  * Demonstração: Criei endpoints para operações de cadastro, consulta, atualização e exclusão de recursos.
+* **APIs REST:** Nível Intermediário
+  * Demonstração: Implementei endpoints REST para operações de CRUD e consultas com filtros por região e endereço
 
 * **Banco de Dados Relacional:** Nível Intermediário
+  * Demonstração: Modelei entidades para representar usuários, endereços, regiões e demais dados utilizados pela aplicação, integrando o back-end ao banco de dados.
 
-  * Demonstração: Estruturei entidades e relacionamentos necessários para representar funcionários, contratos e registros de movimentação.
+* **Arquitetura em Camadas:** Nível Intermediário
+  * Demonstração: Foi feita a estruturação dos módulos do sistema através da separação entre Controller, Service, Repository e Entity, promovendo organização e manutenção do código.
 
 #### Soft Skills
 
-* Proatividade: assumi a implementação completa de módulos importantes da aplicação.
-* Organização: mantive consistência entre entidades, DTOs, services e controllers durante a evolução do sistema.
-* Trabalho em equipe: participei da integração das funcionalidades através de Pull Requests e revisões.
-* Adaptabilidade: realizei correções e refatorações conforme novas necessidades surgiam ao longo das sprints.
-
+* Proatividade: Assumi o cargo de Scrum Master, realizando a criação de tasks, realizando as Dailys semanais, Retros e Reviews, além de contribuir como desenvolvedor na parte do back-end da aplicação.
+* Organização: Através de um aplicativo Kanban, mantivemos consistência na realização de tasks e, por parte do desenvolvimento, foi feita a separação entre pastas de entidades, DTOs, services e controllers durante a evolução do sistema.
+* Trabalho em equipe: Semanalmente, realizava as dailys para melhor visualização do projeto e também para ver a dificuldade de cada integrante durante as Sprints. Durante as Reviews e Retros, também era acatada e analisada cada sugestão dos desenvolvedores. 
 
 ### Em 2026-1
 Mesmo formato
