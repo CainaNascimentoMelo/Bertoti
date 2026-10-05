@@ -202,7 +202,74 @@ De semelhante modo ao semestre anterior, tivemos dificuldade com um dos desenvol
 
 ### Em 2026-1
 
-Mesmo formato
+A empresa parceira deste projeto foi a SIATT, que apresentou como principal dor a grande quantidade de dados relacionados aos projetos de seus programas, que estavam distribuídos entre diferentes sistemas e bancos, o que gerava dificuldades na análise das informações e o acompanhamento geral dos gestores em cima dos projetos. Como solução, o grupo desenvolveu o Synthesi, uma aplicação web voltada a organização e transformação dos dados em informações úteis. Através de um Data Warehouse, o sistema consolida as informações e disponibiliza funcionalidades para acompanhamento de projetos e programas, visualização de custos e horas trabalhadas, acompanhamento de pedidos e solicitações de materiais, entre outras. Durante esse semestre, a aplicação foi desenvolvida em Python com framework em Django, PostgreSQL como banco de dados, interface gráfica desenvolvida em React com TypeScript e Docker para execução em um ambiente containerizado.
+
+[GitHub](https://github.com/SQLutionsFATEC/API-5-Semestre)
+
+#### Tecnologias Utilizadas
+
+- Python: Linguagem de programação utilizada para construção da lógica de negócio do sistema, utilizada prioritariamente no back-end.
+
+- Django: Utilizado como framework na linguagem Pyhton, servindo para organização das funcionalidades do back-end e para aceleração das construção do API.
+
+- PostgreSQL: Banco de dados que armazenou todos os dados de projetos e programas, garantindo a integridade dos dados.
+
+- React: Biblioteca utilizada na construção da interface gráfica do sistema, permitindo a criação de telas interativas para visualização das informações.
+
+- TypeScript: Utilizado no desenvolvimento do front-end para tipagem dos componentes, serviços e estruturas de dados do projeto.
+
+- Docker: Através de contêineres, empacotou todas as partes de nossa aplicação (back-end, front-end e banco de dados), garantindo que o sistema funcione em qualquer ambiente.
+
+#### Contribuições Pessoais
+
+Atuando como Desenvolvedor, minhas principais contribuições estiveram relacionadas na construção de funcionalidades de gerenciamento de materiais, análise de custos, consulta de programas, controle de estoque e importação de dados. Além disso, contribuí para a padronização do processo de desenvolvimento por meio da configuração de ferramentas de qualidade de código, sendo responsável por:
+
+* Padronização do código no Back-end: Realizei a configuração inicial das ferramentas utilizadas para linting e padronização do código do back-end, com o objetivo de manter uma estrutura consistente durante o desenvolvimento da API.
+
+* Desenvolvimento da API de Material Commitment: Implementei os endpoints relacionados ao comprometimento de materiais, desenvolvendo a estrutura  para disponibilização dessas informações.
+
+* Desenvolvimento da interface de Material Commitment: No front-end, desenvolvi os componentes responsáveis pela visualização dos materiais comprometidos, incluindo tabelas, abas de navegação, gráficos e listas relacionadas a materiais obsoletos.
+
+* Desenvolvimento da Importação de Arquivos CSV: Desenvolvi o endpoint responsável pela importação de dados de arquivos CSV. A implementação envolveu a criação dos módulos responsáveis pela extração, transformação, validação e carregamento dos dados, permitindo que informações provenientes de planilhas fossem inseridas na aplicação.
+
+* Dashboard Financeiro e Tabela de Pedidos: Desenvolvi os componentes responsáveis à visualização dos gastos financeiros e dos pedidos realizados nos projetos. As alterações envolveram a atualização do componente de comprometimento de materiais e o tratamento dos dados utilizados pela interface.
+
+* Tela de Listagem e Pesquisa de Programas: Implementei a tela responsável pela listagem dos programas e projetos, adicionando um serviço para consulta dos dados, componentes de cards para apresentação das informações e funcionalidade de pesquisa.
+
+* Dashboard de Gerenciamento de Estoque: Desenvolvi a tela de gerenciamento de estoque dos projetos, implementando o componente StockScreen, sua integração com o sistema de rotas, a visualização do inventário e apresentação de alertas relacionados aos materiais.
+
+#### Hard Skills
+
+* **Python com Django:** Nível Intermediário
+
+  * **Demonstração:** Utilizando Django e Django REST Framework, desenvolvi endpoints para gerenciamento de informações de materiais e importação de dados provenientes de arquivos CSV, trabalhando com regras de processamento, validação e disponibilização das informações por meio de APIs.
+
+* **React com TypeScript:** Nível Intermediário
+
+  * **Demonstração:** Desenvolvi componentes e telas para visualização de materiais, pedidos, programas, projetos e estoque, utilizando componentes reutilizáveis, serviços de consulta, tipagem de dados, gerenciamento de estados e integração entre diferentes partes da aplicação.
+
+* **APIs REST:** Nível Intermediário
+
+  * **Demonstração:** Implementei endpoints para disponibilização e processamento de informações relacionadas aos materiais e à importação de dados, utilizando Django REST Framework e estruturas de serialização.
+
+* **Manipulação e Processamento de Dados:** Nível Intermediário
+
+  * **Demonstração:** Desenvolvi o processamento de arquivos CSV envolvendo etapas de extração, transformação e validação antes do carregamento dos dados na aplicação.
+
+* **Testes Automatizados:** Nível Intermediário
+
+  * **Demonstração:** Implementei testes para componentes do front-end, incluindo as telas de programas, estoque e componentes relacionados ao gerenciamento de materiais, buscando garantir o funcionamento das principais funcionalidades desenvolvidas.
+
+### Soft Skills
+
+Durante o quinto semestre, atuei como desenvolvedor dentro da equipe SQLutions, passando a trabalhar de maneira mais integrada entre o back-end e o front-end da aplicação. Diferentemente dos semestres anteriores, em que minhas contribuições estiveram mais concentradas em uma tecnologia específica e no quarto semestre também assumi a função de Scrum Master, neste projeto tive a oportunidade de participar de diferentes partes da aplicação, desenvolvendo tanto APIs e processamento de dados quanto componentes de interface.
+
+A participação em funcionalidades que dependiam da comunicação entre back-end e front-end também exigiu maior preocupação com a organização dos dados e com a forma como as informações seriam disponibilizadas e consumidas pela aplicação. O desenvolvimento da funcionalidade de importação de arquivos CSV, por exemplo, exigiu atenção à validação e transformação dos dados antes de seu armazenamento, enquanto as funcionalidades desenvolvidas no front-end exigiram preocupação com a apresentação dessas informações de maneira compreensível para o usuário.
+
+Outro ponto importante foi a evolução na utilização de ferramentas de qualidade e organização do desenvolvimento. A participação na configuração de linting, criação de templates de Pull Requests e desenvolvimento de testes automatizados permitiu compreender melhor a importância de manter um padrão dentro do projeto, não apenas para facilitar o desenvolvimento individual, mas também para melhorar a colaboração entre os integrantes da equipe.
+
+Ao longo do semestre, também pude desenvolver maior autonomia na resolução de problemas, principalmente por ter participado de funcionalidades diferentes entre si. A experiência de trabalhar simultaneamente com processamento de dados, desenvolvimento de APIs, componentes de interface, testes e integração entre funcionalidades contribuiu para ampliar minha visão sobre o desenvolvimento de uma aplicação completa e sobre a necessidade de comunicação e colaboração entre os diferentes integrantes da equipe.
+
 
 ### Em 2026-2
 
