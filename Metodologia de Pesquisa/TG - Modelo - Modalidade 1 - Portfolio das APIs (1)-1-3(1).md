@@ -240,35 +240,29 @@ Atuando como Desenvolvedor, minhas principais contribuições estiveram relacion
 
 #### Hard Skills
 
-* **Python com Django:** Nível Intermediário
+* Python com Django: Nível Intermediário
 
-  * **Demonstração:** Utilizando Django e Django REST Framework, desenvolvi endpoints para gerenciamento de informações de materiais e importação de dados provenientes de arquivos CSV, trabalhando com regras de processamento, validação e disponibilização das informações por meio de APIs.
+  * Demonstração: Utilizando Python e Django REST Framework, desenvolvi endpoints para gerenciamento de informações de materiais e importação de dados de arquivos CSV, trabalhando com regras de processamento, validação e disponibilização das informações por meio de APIs.
 
-* **React com TypeScript:** Nível Intermediário
+* React com TypeScript: Nível Intermediário
 
-  * **Demonstração:** Desenvolvi componentes e telas para visualização de materiais, pedidos, programas, projetos e estoque, utilizando componentes reutilizáveis, serviços de consulta, tipagem de dados, gerenciamento de estados e integração entre diferentes partes da aplicação.
+  * Demonstração: Desenvolvi componentes e telas para visualização de materiais, pedidos, programas, projetos e estoque, utilizando serviços de consulta, tipagem de dados, gerenciamento de estados e integração entre diferentes partes da aplicação web.
 
-* **APIs REST:** Nível Intermediário
+* API REST: Nível Básico
 
-  * **Demonstração:** Implementei endpoints para disponibilização e processamento de informações relacionadas aos materiais e à importação de dados, utilizando Django REST Framework e estruturas de serialização.
+  * Demonstração: Implementei endpoints para disponibilização e processamento de informações relacionadas aos materiais e à importação de dados, utilizando Django e estruturas de serialização.
 
-* **Manipulação e Processamento de Dados:** Nível Intermediário
+* Manipulação e Processamento de Dados: Nível Básico
 
-  * **Demonstração:** Desenvolvi o processamento de arquivos CSV envolvendo etapas de extração, transformação e validação antes do carregamento dos dados na aplicação.
+  * Demonstração: Desenvolvi o processamento de arquivos CSV envolvendo etapas de extração, transformação e validação na aplicação.
 
-* **Testes Automatizados:** Nível Intermediário
+#### Soft Skills
 
-  * **Demonstração:** Implementei testes para componentes do front-end, incluindo as telas de programas, estoque e componentes relacionados ao gerenciamento de materiais, buscando garantir o funcionamento das principais funcionalidades desenvolvidas.
+No quinto semestre, atuei como desenvolvedor diferente do semestre passado. Neste projeto, minhas contribuições estiveram mais concentradas em participar de diferentes partes da aplicação, indo para o desenvolvimento tanto de APIs e processamento de dados quanto para componentes de interfaces, ficando mais familiarizado com a parte do front-end. A participação em funcionalidades que dependiam da comunicação entre back-end e front-end foi uma novidade por parte minha, exigindo uma maior organização para realizar essas tarefas. Cito o desenvolvimento da funcionalidade de importação de arquivos CSV, que exigiu atenção à validação e transformação dos dados antes de seu armazenamento, enquanto as suas funcionalidades no front-end exigiu uma preocupação em relação a apresentação dessas informações de maneira compreensível.
 
-### Soft Skills
+Outro ponto importante foi a mudança na linguagem de programação principal para o desenvolvimento dessa API. Foi nosso primeiro projeto usando Python e tive uma maior familiaridade com ele do que com o Java, permitindo que conseguisse ter uma maior evolução de minha parte em relação ao back-end e sua estrutura. 
 
-Durante o quinto semestre, atuei como desenvolvedor dentro da equipe SQLutions, passando a trabalhar de maneira mais integrada entre o back-end e o front-end da aplicação. Diferentemente dos semestres anteriores, em que minhas contribuições estiveram mais concentradas em uma tecnologia específica e no quarto semestre também assumi a função de Scrum Master, neste projeto tive a oportunidade de participar de diferentes partes da aplicação, desenvolvendo tanto APIs e processamento de dados quanto componentes de interface.
-
-A participação em funcionalidades que dependiam da comunicação entre back-end e front-end também exigiu maior preocupação com a organização dos dados e com a forma como as informações seriam disponibilizadas e consumidas pela aplicação. O desenvolvimento da funcionalidade de importação de arquivos CSV, por exemplo, exigiu atenção à validação e transformação dos dados antes de seu armazenamento, enquanto as funcionalidades desenvolvidas no front-end exigiram preocupação com a apresentação dessas informações de maneira compreensível para o usuário.
-
-Outro ponto importante foi a evolução na utilização de ferramentas de qualidade e organização do desenvolvimento. A participação na configuração de linting, criação de templates de Pull Requests e desenvolvimento de testes automatizados permitiu compreender melhor a importância de manter um padrão dentro do projeto, não apenas para facilitar o desenvolvimento individual, mas também para melhorar a colaboração entre os integrantes da equipe.
-
-Ao longo do semestre, também pude desenvolver maior autonomia na resolução de problemas, principalmente por ter participado de funcionalidades diferentes entre si. A experiência de trabalhar simultaneamente com processamento de dados, desenvolvimento de APIs, componentes de interface, testes e integração entre funcionalidades contribuiu para ampliar minha visão sobre o desenvolvimento de uma aplicação completa e sobre a necessidade de comunicação e colaboração entre os diferentes integrantes da equipe.
+Por fim, minha maior evolução como profissional veio na autonomia da resolução dos problemas, principalmente por ter participado de funcionalidades diferentes entre si. A experiência que ganhei em trabalhar simultaneamente com processamento de dados, desenvolvimento de APIs, componentes de interface, testes e a integração entre funcionalidades contribuiu para ampliar minha visão sobre o desenvolvimento de uma aplicação como um todo, podendo colaborar mais como desenvolvedor dentro de minha equipe.
 
 
 ### Em 2026-2
